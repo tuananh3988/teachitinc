@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,iCAAkC;EAChC,qBAAsB;IACpB,OAAO,EAAE,IAAI;;EAIb,uCAA8B;IAC5B,WAAW,EAAE,YAAY;IACzB,UAAU,EAAE,YAAY",
+"sources": ["../sass/teachit-new-theme.hacks.scss"],
+"names": [],
+"file": "teachit-new-theme.hacks.css"
+}
