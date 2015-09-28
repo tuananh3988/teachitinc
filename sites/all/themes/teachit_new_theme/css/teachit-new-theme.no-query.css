@@ -34,25 +34,35 @@ img, media {
 /* line 42, ../sass/teachit-new-theme.styles.scss */
 .tb-megamenu {
   background-color: #fff; }
-  /* line 45, ../sass/teachit-new-theme.styles.scss */
+  /* line 47, ../sass/teachit-new-theme.styles.scss */
+  .tb-megamenu .nav li.dropdown > .dropdown-toggle .caret {
+    margin-top: 35px;
+    border-top-color: #666 !important;
+    border-bottom-color: #666 !important; }
+  /* line 57, ../sass/teachit-new-theme.styles.scss */
+  .tb-megamenu .nav li.dropdown.open > .dropdown-toggle .caret {
+    margin-top: 35px;
+    border-top-color: #666 !important;
+    border-bottom-color: #666 !important; }
+  /* line 64, ../sass/teachit-new-theme.styles.scss */
   .tb-megamenu .nav > .active {
     float: right; }
-    /* line 47, ../sass/teachit-new-theme.styles.scss */
+    /* line 66, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav > .active > a {
-      background-color: #fff;
-      color: #575757;
+      background-color: #fff !important;
+      color: #575757 !important;
       text-decoration: none;
       line-height: 77px;
       font-size: 14px;
       font-weight: 300;
       border-right: none;
       text-transform: uppercase; }
-    /* line 58, ../sass/teachit-new-theme.styles.scss */
+    /* line 77, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav > .active a:hover {
       background-color: #fff;
       color: #575757;
       text-decoration: none; }
-    /* line 63, ../sass/teachit-new-theme.styles.scss */
+    /* line 82, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav > .active a:focus {
       background-color: #fff;
       color: #575757;

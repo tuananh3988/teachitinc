@@ -42,11 +42,30 @@
 .tb-megamenu {
     background-color: $base_color;
     .nav {
+        li.dropdown {
+            > .dropdown-toggle {
+                .caret {
+                    margin-top: 35px;
+                    border-top-color: #666 !important;
+                    border-bottom-color: #666 !important;
+                }
+            }
+        }
+
+        li.dropdown.open {
+            > .dropdown-toggle {
+                .caret {
+                    margin-top: 35px;
+                    border-top-color: #666 !important;
+                    border-bottom-color: #666 !important;
+            }
+            }
+        }
         > .active {
             float: right;
             > a {
-                background-color: $base_color;
-                color: $base_text_color;
+                background-color: $base_color !important;
+                color: $base_text_color !important;
                 text-decoration: none;
                 line-height: 77px;
                 font-size: 14px;
