@@ -21,10 +21,7 @@
 @import "base/**/*";
 @import "components/**/*";
 
-.l-page {
-    width: 1345px;
-    margin: 0 auto;
-}
+
 
 .l-branding {
     @include clearfix;
