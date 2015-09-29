@@ -27,22 +27,26 @@ img, media {
   clear: none; }
 
 /* line 39, ../sass/teachit-new-theme.styles.scss */
+.block--md-slider {
+  margin-bottom: 25px; }
+
+/* line 43, ../sass/teachit-new-theme.styles.scss */
 .tb-megamenu {
   background-color: #fff; }
-  /* line 44, ../sass/teachit-new-theme.styles.scss */
+  /* line 48, ../sass/teachit-new-theme.styles.scss */
   .tb-megamenu .nav li.dropdown > .dropdown-toggle .caret {
     margin-top: 35px;
     border-top-color: #666 !important;
     border-bottom-color: #666 !important; }
-  /* line 54, ../sass/teachit-new-theme.styles.scss */
+  /* line 58, ../sass/teachit-new-theme.styles.scss */
   .tb-megamenu .nav li.dropdown.open > .dropdown-toggle .caret {
     margin-top: 35px;
     border-top-color: #666 !important;
     border-bottom-color: #666 !important; }
-  /* line 61, ../sass/teachit-new-theme.styles.scss */
+  /* line 65, ../sass/teachit-new-theme.styles.scss */
   .tb-megamenu .nav > .active {
     float: right; }
-    /* line 63, ../sass/teachit-new-theme.styles.scss */
+    /* line 67, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav > .active > a {
       background-color: #fff !important;
       color: #575757 !important;
@@ -52,12 +56,12 @@ img, media {
       font-weight: 300;
       border-right: none;
       text-transform: uppercase; }
-    /* line 74, ../sass/teachit-new-theme.styles.scss */
+    /* line 78, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav > .active a:hover {
       background-color: #fff;
       color: #575757;
       text-decoration: none; }
-    /* line 79, ../sass/teachit-new-theme.styles.scss */
+    /* line 83, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav > .active a:focus {
       background-color: #fff;
       color: #575757;

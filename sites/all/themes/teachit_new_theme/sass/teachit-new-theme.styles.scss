@@ -36,6 +36,10 @@
     @include grid-span(9,4);
 }
 
+.block--md-slider {
+    margin-bottom: $base_margin;
+}
+
 .tb-megamenu {
     background-color: $base_color;
     .nav {
