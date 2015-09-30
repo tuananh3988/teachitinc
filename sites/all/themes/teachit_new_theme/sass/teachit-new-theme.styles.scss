@@ -22,70 +22,117 @@
 @import "components/**/*";
 
 
-
+body {
+    padding: 0 $base_margin;
+}
 .l-branding {
     @include clearfix;
-}
-
-.site-logo {
-    @include grid-span(3,1);
-    padding: 10px;
-}
-
-.l-region--branding {
-    @include grid-span(9,4);
 }
 
 .block--md-slider {
     margin-bottom: $base_margin;
 }
 
-.tb-megamenu {
-    background-color: $base_color;
-    .nav {
-        li.dropdown {
-            > .dropdown-toggle {
-                .caret {
-                    margin-top: 35px;
-                    border-top-color: #666 !important;
-                    border-bottom-color: #666 !important;
+.site-logo {
+    @include grid-span(10, 2);
+    padding: 10px;
+    text-align: center;
+}
+
+.l-region--branding {
+    @include grid-span(1, 1);
+    margin-top: 40px;
+}
+
+.tb-megamenu .nav-collapse {
+    width: 200px;
+}
+
+@include breakpoint($tab) {
+    .l-page {
+        width: $tab;
+        margin: 0 auto;
+    }
+
+    .tb-megamenu .nav-collapse {
+        width: 300px;
+    }
+}
+
+@include breakpoint($des) {
+    .l-page {
+        width: $des;
+        margin: 0 auto;
+    }
+    
+    .site-logo {
+        @include grid-span(3,1);
+        padding: 10px;
+    }
+
+    .l-region--branding {
+        @include grid-span(9,4);
+        margin-top: 0;
+    }
+
+    .tb-megamenu {
+        background-color: $base_color;
+        .nav-collapse {
+            width: 100%;
+        }
+
+        .nav {
+            li.dropdown {
+                > .dropdown-toggle {
+                    .caret {
+                        margin-top: 35px;
+                        border-top-color: #666 !important;
+                        border-bottom-color: #666 !important;
+                    }
+                }
+            }
+
+            li.dropdown.open {
+                > .dropdown-toggle {
+                    .caret {
+                        margin-top: 35px;
+                        border-top-color: #666 !important;
+                        border-bottom-color: #666 !important;
+                }
+                }
+            }
+            > .active {
+                float: right;
+                > a {
+                    background-color: $base_color !important;
+                    color: $base_text_color !important;
+                    text-decoration: none;
+                    line-height: 77px;
+                    font-size: 14px;
+                    font-weight: 300;
+                    border-right: none;
+                    text-transform: uppercase;
+                }
+
+                a:hover {
+                    background-color: $base_color;
+                    color: $base_text_color;
+                    text-decoration: none;
+                }
+                a:focus {
+                    background-color: $base_color;
+                    color: $base_text_color;
+                    text-decoration: none;
                 }
             }
         }
 
-        li.dropdown.open {
-            > .dropdown-toggle {
-                .caret {
-                    margin-top: 35px;
-                    border-top-color: #666 !important;
-                    border-bottom-color: #666 !important;
-            }
-            }
-        }
-        > .active {
-            float: right;
-            > a {
-                background-color: $base_color !important;
-                color: $base_text_color !important;
-                text-decoration: none;
-                line-height: 77px;
-                font-size: 14px;
-                font-weight: 300;
-                border-right: none;
-                text-transform: uppercase;
-            }
-            
-            a:hover {
-                background-color: $base_color;
-                color: $base_text_color;
-                text-decoration: none;
-            }
-            a:focus {
-                background-color: $base_color;
-                color: $base_text_color;
-                text-decoration: none;
-            }
-        }
     }
-        
 }
+
+@include breakpoint($s-des) {
+    .l-page {
+        width: $s-des;
+    }
+}
+
