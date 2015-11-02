@@ -17,46 +17,49 @@ function teachit_new_theme_form_system_theme_settings_alter(&$form, $form_state)
     
     $form['grid-setting'] = array(
         '#type' => 'fieldset',
-        '#title' => t('Grid settings'),
+        '#title' => t('Grid content settings'),
         '#collapsible' => TRUE,
         '#collapsed' => FALSE,
     );
+    
+    for ($i = 1; $i <= 6; $i++) {
+        $form['grid-setting']["block-$i"] = array(
+            '#type' => 'fieldset',
+            '#title' => t("Block $i"),
+            '#collapsible' => TRUE,
+            '#collapsed' => FALSE,
+        );
 
-    $form['grid-setting']['block-1'] = array(
-        '#type' => 'fieldset',
-        '#title' => t('Block 1'),
-        '#collapsible' => TRUE,
-        '#collapsed' => FALSE,
-    );
+        $form['grid-setting']["block-$i"]["title-$i"] = array(
+            '#type' => 'textfield',
+            '#title' => t('Title'),
+            '#default_value' => empty(theme_get_setting("title-$i")) ? '' : theme_get_setting("title-$i"),
+        );
 
-    $form['grid-setting']['block-1']['title-1'] = array(
-        '#type' => 'textfield',
-        '#title' => t('Title'),
-        '#default_value' => empty(theme_get_setting('title-1')) ? '' : theme_get_setting('title-1'),
-    );
+        $form['grid-setting']["block-$i"]["desciption-$i"] = array(
+            '#type' => 'textfield',
+            '#title' => t('Desciption'),
+            '#default_value' => empty(theme_get_setting("desciption-$i")) ? '' : theme_get_setting("desciption-$i"),
+        );
 
-    $form['grid-setting']['block-1']['desciption-1'] = array(
-        '#type' => 'textfield',
-        '#title' => t('Desciption'),
-        '#default_value' => empty(theme_get_setting('desciption-1')) ? '' : theme_get_setting('desciption-1'),
-    );
+        $form['grid-setting']["block-$i"]["media-$i"] = array(
+            '#type' => 'radios',
+            '#title' => t('Content'),
+            '#default_value' => empty(theme_get_setting("media-$i")) ? 0 : theme_get_setting("media-$i"),
+            '#options' => $mediaArr,
+        );
 
-    $form['grid-setting']['block-1']['media-1'] = array(
-        '#type' => 'radios',
-        '#title' => t('Content'),
-        '#default_value' => empty(theme_get_setting('media-1')) ? 0 : theme_get_setting('media-1'),
-        '#options' => $mediaArr,
-    );
+        $form['grid-setting']["block-$i"]["media-value-$i"] = array(
+            '#type' => 'textfield',
+            //'#title' => t('Desciption'),
+            '#default_value' => empty(theme_get_setting("media-value-$i")) ? '' : theme_get_setting("media-value-$i"),
+        );
 
-    $form['grid-setting']['block-1']['media-value-1'] = array(
-        '#type' => 'textfield',
-        //'#title' => t('Desciption'),
-        '#default_value' => empty(theme_get_setting('media-value-1')) ? '' : theme_get_setting('media-value-1'),
-    );
-
-    $form['grid-setting']['block-1']['link-1'] = array(
-        '#type' => 'textfield',
-        '#title' => t('Link'),
-        '#default_value' => empty(theme_get_setting('link-1')) ? '' : theme_get_setting('link-1'),
-    );
+        $form['grid-setting']["block-$i"]["link-$i"] = array(
+            '#type' => 'textfield',
+            '#title' => t('Link'),
+            '#default_value' => empty(theme_get_setting("link-$i")) ? '' : theme_get_setting("link-$i"),
+        );
+    }
+    
 }
