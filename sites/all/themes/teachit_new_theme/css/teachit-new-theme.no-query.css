@@ -40,4 +40,8 @@ body {
 .tb-megamenu .nav-collapse {
   width: 200px; }
 
+/* line 139, ../sass/teachit-new-theme.styles.scss */
+.mbYTP_wrapper .YTPOverlay {
+  background-color: rgba(0, 0, 0, 0.4); }
+
 /*# sourceMappingURL=teachit-new-theme.no-query.css.map */

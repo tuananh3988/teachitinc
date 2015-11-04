@@ -116,5 +116,8 @@ body {
   /* line 134, ../sass/teachit-new-theme.styles.scss */
   .l-page {
     width: 100em; } }
+/* line 139, ../sass/teachit-new-theme.styles.scss */
+.mbYTP_wrapper .YTPOverlay {
+  background-color: rgba(0, 0, 0, 0.4); }
 
 /*# sourceMappingURL=teachit-new-theme.styles.css.map */
