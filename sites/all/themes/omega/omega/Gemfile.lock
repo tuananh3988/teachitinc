@@ -92,6 +92,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   breakpoint
@@ -114,3 +115,6 @@ DEPENDENCIES
   susy
   toolkit
   yajl-ruby
+
+BUNDLED WITH
+   1.10.6
