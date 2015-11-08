@@ -40,7 +40,13 @@ body {
 .tb-megamenu .nav-collapse {
   width: 200px; }
 
-/* line 139, ../sass/teachit-new-theme.styles.scss */
+/* line 13, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/toolkit-2.9.0/stylesheets/toolkit/_clearfix.scss */
+.wrap-grid-content:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 177, ../sass/teachit-new-theme.styles.scss */
 .mbYTP_wrapper .YTPOverlay {
   background-color: rgba(0, 0, 0, 0.4); }
 

@@ -51,8 +51,14 @@ function teachit_new_theme_form_system_theme_settings_alter(&$form, $form_state)
 
         $form['grid-setting']["block-$i"]["media-value-$i"] = array(
             '#type' => 'textfield',
-            //'#title' => t('Desciption'),
+            '#title' => t('Url'),
             '#default_value' => empty(theme_get_setting("media-value-$i")) ? '' : theme_get_setting("media-value-$i"),
+        );
+        
+        $form['grid-setting']["block-$i"]["media-thumbnail-$i"] = array(
+            '#type' => 'textfield',
+            '#title' => t('Video thumbnail'),
+            '#default_value' => empty(theme_get_setting("media-thumbnail-$i")) ? '' : theme_get_setting("media-thumbnail-$i"),
         );
 
         $form['grid-setting']["block-$i"]["link-$i"] = array(
