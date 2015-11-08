@@ -1,0 +1,49 @@
+<?php
+
+/**
+ * Implements hook_block_info().
+ */
+function teachit_config_block_info() {
+    $blocks = array();
+    $blocks['grid_content'] = array(
+        'info' => t('Grid content home page'),
+    );
+
+    return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function teachit_config_block_view($delta = '') {
+    $block = array();
+
+    switch ($delta) {
+        case 'grid_content' :
+            $block['content'] = grid_content_block_view();
+            break;
+    }
+
+    return $block;
+}
+
+/**
+ * Custom function to assemble renderable array for block content.
+ * Returns a renderable array with the block content.
+ * @return
+ *   returns a renderable array of block content.
+ */
+function grid_content_block_view() {
+    return theme('teachit_config_grid_content');
+}
+
+function teachit_config_theme($existing, $type, $theme, $path) {
+  return array(
+    'teachit_config_grid_content' => array(
+      'template' => 'grid_content',
+      'variables' => array('dataA' => '', 'dataB' => '', 'dataC' => ''),
+      'path' => drupal_get_path('module', 'teachit_config') . '/templates'
+    )
+  );
+}
+
