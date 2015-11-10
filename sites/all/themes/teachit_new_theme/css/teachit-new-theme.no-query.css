@@ -1,3 +1,14 @@
+/* line 17, ../sass/variables/_grid.scss */
+.wrapper, .row {
+  *zoom: 1; }
+  /* line 19, ../sass/variables/_grid.scss */
+  .wrapper:before, .row:before, .wrapper:after, .row:after {
+    content: " ";
+    display: table; }
+  /* line 24, ../sass/variables/_grid.scss */
+  .wrapper:after, .row:after {
+    clear: both; }
+
 /* No files to import found in abstractions/**\/* */
 /* line 1, ../sass/base/_media.scss */
 img, media {
@@ -13,11 +24,11 @@ body {
   display: table;
   clear: both; }
 
-/* line 32, ../sass/teachit-new-theme.styles.scss */
+/* line 36, ../sass/teachit-new-theme.styles.scss */
 .block--md-slider {
   margin-bottom: 25px; }
 
-/* line 36, ../sass/teachit-new-theme.styles.scss */
+/* line 40, ../sass/teachit-new-theme.styles.scss */
 .site-logo {
   width: 83.05085%;
   float: left;
@@ -27,7 +38,7 @@ body {
   padding: 10px;
   text-align: center; }
 
-/* line 42, ../sass/teachit-new-theme.styles.scss */
+/* line 46, ../sass/teachit-new-theme.styles.scss */
 .l-region--branding {
   width: 6.77966%;
   float: left;
@@ -36,7 +47,7 @@ body {
   clear: none;
   margin-top: 40px; }
 
-/* line 47, ../sass/teachit-new-theme.styles.scss */
+/* line 51, ../sass/teachit-new-theme.styles.scss */
 .tb-megamenu .nav-collapse {
   width: 200px; }
 
@@ -46,8 +57,152 @@ body {
   display: table;
   clear: both; }
 
-/* line 177, ../sass/teachit-new-theme.styles.scss */
+/* line 188, ../sass/teachit-new-theme.styles.scss */
 .mbYTP_wrapper .YTPOverlay {
   background-color: rgba(0, 0, 0, 0.4); }
+
+/* line 192, ../sass/teachit-new-theme.styles.scss */
+.bg-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 2px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 2; }
+
+/* line 209, ../sass/teachit-new-theme.styles.scss */
+.wrap-grid-content .content:hover .bg-img {
+  opacity: 0.9; }
+/* line 213, ../sass/teachit-new-theme.styles.scss */
+.wrap-grid-content .content {
+  width: 100%;
+  height: 100%; }
+  /* line 217, ../sass/teachit-new-theme.styles.scss */
+  .wrap-grid-content .content .overlay {
+    width: 100%;
+    height: 100%; }
+    /* line 220, ../sass/teachit-new-theme.styles.scss */
+    .wrap-grid-content .content .overlay .copy {
+      position: absolute;
+      bottom: 20px;
+      margin-right: 25px;
+      z-index: 4; }
+      /* line 225, ../sass/teachit-new-theme.styles.scss */
+      .wrap-grid-content .content .overlay .copy .title {
+        float: left;
+        clear: both;
+        margin: 0;
+        font-size: 15px; }
+        /* line 230, ../sass/teachit-new-theme.styles.scss */
+        .wrap-grid-content .content .overlay .copy .title a {
+          display: block;
+          float: left;
+          padding: 9px 14px 12px 13px;
+          text-decoration: none;
+          color: #fff;
+          background-color: #dc2828;
+          background-color: rgba(220, 40, 40, 0.85); }
+      /* line 241, ../sass/teachit-new-theme.styles.scss */
+      .wrap-grid-content .content .overlay .copy .title:hover a {
+        background-color: #dc2828; }
+      /* line 244, ../sass/teachit-new-theme.styles.scss */
+      .wrap-grid-content .content .overlay .copy .cta {
+        float: left;
+        clear: both;
+        margin: 0;
+        overflow: hidden;
+        font-size: 11px;
+        font-family: "SST W01 Bold", "SST W01", Helvetica, Arial, sans-serif;
+        text-transform: uppercase; }
+        /* line 252, ../sass/teachit-new-theme.styles.scss */
+        .wrap-grid-content .content .overlay .copy .cta a {
+          display: block;
+          float: left;
+          padding: 9px 14px 12px 13px;
+          text-decoration: none;
+          color: #222222;
+          background-color: #ffffff;
+          background-color: rgba(255, 255, 255, 0.9); }
+      /* line 262, ../sass/teachit-new-theme.styles.scss */
+      .wrap-grid-content .content .overlay .copy .cta:hover a {
+        background-color: white; }
+    /* line 267, ../sass/teachit-new-theme.styles.scss */
+    .wrap-grid-content .content .overlay .source {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      margin: 0;
+      z-index: 4; }
+    /* line 275, ../sass/teachit-new-theme.styles.scss */
+    .wrap-grid-content .content .overlay .play {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 50px;
+      height: 50px;
+      margin: -25px 0 0 -25px;
+      border-radius: 50%;
+      background-color: #c0c0c0;
+      background-color: rgba(192, 192, 192, 0.8);
+      z-index: 4; }
+    /* line 289, ../sass/teachit-new-theme.styles.scss */
+    .wrap-grid-content .content .overlay .play {
+      background-color: #dc2828;
+      background-color: rgba(220, 40, 40, 0.8); }
+    /* line 294, ../sass/teachit-new-theme.styles.scss */
+    .wrap-grid-content .content .overlay .play a {
+      width: 100%;
+      height: 100%;
+      background-image: url(/sites/default/files/arrow-play.svg);
+      background-position: 22px center;
+      -webkit-background-size: 12px 18px;
+      background-size: 12px 18px;
+      text-indent: -9999px;
+      display: block;
+      webkit-transition: background-color 0.25s linear,border-color 0.25s linear,opacity 0.25s linear,color 0.25s linear,fill 0.25s linear;
+      transition: background-color 0.25s linear,border-color 0.25s linear,opacity 0.25s linear,color 0.25s linear,fill 0.25s linear;
+      cursor: pointer; }
+    /* line 308, ../sass/teachit-new-theme.styles.scss */
+    .wrap-grid-content .content .overlay .play:hover {
+      background-color: #dc3a3a;
+      background-color: rgba(220, 40, 40, 0.99);
+      -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05); }
+  /* line 319, ../sass/teachit-new-theme.styles.scss */
+  .wrap-grid-content .content iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100.5%;
+    border: none;
+    overflow: hidden;
+    z-index: 1; }
+  /* line 332, ../sass/teachit-new-theme.styles.scss */
+  .wrap-grid-content .content iframe.active {
+    z-index: 901; }
+
+/* line 339, ../sass/teachit-new-theme.styles.scss */
+#screen {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 900; }
 
 /*# sourceMappingURL=teachit-new-theme.no-query.css.map */
