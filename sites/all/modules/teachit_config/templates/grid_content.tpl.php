@@ -33,12 +33,36 @@
                 abc2
             </div>
             <div class="wrap-content-3">
-                abc3
+                123
             </div>
         </div>
     </div>
     <div class="grid-2">
-        123
+        <div class="row">
+            <div class="wrap-content-4">
+                <div class="content">
+                    <div class="overlay">
+
+                        <div class="copy">
+                            <h3 class="title">
+                                <a href="<?= theme_get_setting("link-4"); ?>" target="_blank"><?= theme_get_setting("title-4"); ?></a>
+                            </h3>
+                            <p class="cta">
+                                <a href="<?= theme_get_setting("link-4"); ?>" target="_blank"><?= theme_get_setting("desciption-4"); ?></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg">
+                        <div class="bg-img" style="<?= empty(theme_get_setting("media-thumbnail-4")) ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-4") . ')'; ?>"></div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-content-5">
+                123
+            </div>
+        </div>
+        
     </div>
 </div>
 

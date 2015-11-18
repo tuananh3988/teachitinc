@@ -146,7 +146,7 @@ body {
     }
     
     .grid-1 {
-        @include grid-span(7,1);
+        @include grid-span(6,1);
         .wrap-content-1 {
             @include grid-span(12, 1);
             height: 400px;
@@ -158,12 +158,18 @@ body {
         .wrap-content-3 {
             @include grid-span(6, 7);
         }
-        .content {
-            position: relative;
-        }
+        
     }
     .grid-2 {
-        @include grid-span(5,8);
+        @include grid-span(6,7);
+        .wrap-content-4 {
+            @include grid-span(6, 1);
+            height: 400px;
+        }
+        .wrap-content-5 {
+            @include grid-span(6, 7);
+            height: 400px;
+        }
     }
     
     
@@ -183,6 +189,9 @@ body {
 
 .wrap-grid-content {
     @include clearfix;
+    .content {
+        position: relative;
+    }
 }
 
 .mbYTP_wrapper .YTPOverlay {
