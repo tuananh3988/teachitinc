@@ -30,10 +30,42 @@
         </div>
         <div class="row">
             <div class="wrap-content-2">
-                abc2
+                <div class="content">
+                    <div class="overlay">
+
+                        <div class="copy">
+                            <h3 class="title">
+                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("title-5"); ?></a>
+                            </h3>
+                            <p class="cta">
+                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("desciption-5"); ?></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg">
+                        <div class="bg-img" style="<?= empty(theme_get_setting("media-thumbnail-5")) ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-5") . ')'; ?>"></div>
+
+                    </div>
+                </div>
             </div>
             <div class="wrap-content-3">
-                123
+                <div class="content">
+                    <div class="overlay">
+
+                        <div class="copy">
+                            <h3 class="title">
+                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("title-5"); ?></a>
+                            </h3>
+                            <p class="cta">
+                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("desciption-5"); ?></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg">
+                        <div class="bg-img" style="<?= empty(theme_get_setting("media-thumbnail-5")) ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-5") . ')'; ?>"></div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -59,21 +91,64 @@
                 </div>
             </div>
             <div class="wrap-content-5">
-                123
+                <div class="content">
+                    <div class="overlay">
+
+                        <div class="copy">
+                            <h3 class="title">
+                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("title-5"); ?></a>
+                            </h3>
+                            <p class="cta">
+                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("desciption-5"); ?></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg">
+                        <div class="bg-img" style="<?= empty(theme_get_setting("media-thumbnail-5")) ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-5") . ')'; ?>"></div>
+
+                    </div>
+                </div>
             </div>
         </div>
-        
+        <div class="row">
+            <div class="wrap-content-6">
+                <div class="content">
+                    <div class="overlay">
+
+                        <div class="copy">
+                            <h3 class="title">
+                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("title-5"); ?></a>
+                            </h3>
+                            <p class="cta">
+                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("desciption-5"); ?></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg">
+                        <div class="bg-img" style="<?= empty(theme_get_setting("media-thumbnail-5")) ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-5") . ')'; ?>"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <script>
     jQuery(document).ready(function () {
+        var w = jQuery('.wrap-content-1').innerWidth();
+        jQuery('.wrap-content-1').innerHeight(w / 2);
+        jQuery('.wrap-content-2').innerHeight(w / 4);
+        jQuery('.wrap-content-3').innerHeight(w / 4);
+        jQuery('.wrap-content-4').innerHeight(w / 4);
+        jQuery('.wrap-content-5').innerHeight(w / 4);
+        jQuery('.wrap-content-6').innerHeight(w / 2);
         jQuery('body').append('<div id="screen" class="pop-out"></div>');
         jQuery('.play-video').on('click', function(ev) {
             jQuery('#screen').show();
-            
+            var parent = jQuery(this).parents('.wrap-content-1');
             var iframe = '<iframe class="video-wrapper" id="z4UDNzXD3qA" frameborder="0" allowfullscreen="1" title="YouTube video player" width="640" height="390" src="<?= theme_get_setting("media-value-1"); ?>?autoplay=1&amp;autohide=2&amp;modestbranding=1&amp;controls=1&amp;rel=0&amp;showinfo=0&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fwww.sony.com" __idm_id__="40962"></iframe>';
-            jQuery(".bg").append(iframe);
+            parent.find(".bg").append(iframe);
             jQuery('.video-wrapper').addClass('active');
             ev.preventDefault();
 

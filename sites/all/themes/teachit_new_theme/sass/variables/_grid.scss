@@ -1,10 +1,13 @@
-$grids: 12;
-$gutters: 1/3;
+@import "singularitygs";
+@include add-grid(12);
+@include add-gutter(1/3);
+
+
 $red: red;
 
 $tab: 44em;
 $des: 70em;
-$s-des: 100em;
+$s-des: 86em;
 
 
 $base_color: #fff;
@@ -12,9 +15,9 @@ $base_text_color: #575757;
 $header_height: 12px;
 $base_color_opposite: #fff;
 $link_color: green;
-$base_margin: 25px;
+$base_margin: 15px;
 
-%clearfix {
+@mixin clearfix() {
     *zoom: 1;
     &:before, 
     &:after {

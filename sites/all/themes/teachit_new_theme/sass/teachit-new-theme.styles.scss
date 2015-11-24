@@ -24,13 +24,16 @@
 
 body {
     padding: 0 $base_margin;
+    background-color: #262629;
 }
+
 .l-branding {
     @include clearfix;
+    background-color: #fff;
 }
 
 .wrapper, .row {
-    @extend %clearfix;
+    @include clearfix();
 }
 
 .block--md-slider {
@@ -145,30 +148,34 @@ body {
         margin-left: -30px;
     }
     
+    @include add-gutter(4px);
     .grid-1 {
-        @include grid-span(6,1);
+        @include grid-span(8,1);
+        
         .wrap-content-1 {
             @include grid-span(12, 1);
-            height: 400px;
+            margin-bottom: 4px;
             @include clearfix;
         }
         .wrap-content-2 {
-            @include grid-span(6, 1);
+            @include grid-span(8, 1);
         }
         .wrap-content-3 {
-            @include grid-span(6, 7);
+            @include grid-span(4, 9);
         }
         
     }
     .grid-2 {
-        @include grid-span(6,7);
+        @include grid-span(4,9);
         .wrap-content-4 {
             @include grid-span(6, 1);
-            height: 400px;
         }
         .wrap-content-5 {
             @include grid-span(6, 7);
-            height: 400px;
+        }
+        .wrap-content-6 {
+            margin-top: 4px;    
+            @include grid-span(12, 1);
         }
     }
     
@@ -184,6 +191,7 @@ body {
 @include breakpoint($s-des) {
     .l-page {
         width: $s-des;
+        margin: 0 auto;
     }
 }
 
@@ -191,6 +199,7 @@ body {
     @include clearfix;
     .content {
         position: relative;
+        background-color: #000;
     }
 }
 
@@ -214,15 +223,27 @@ body {
 
 
 .wrap-grid-content {
-    .content:hover {
-            .bg-img {
-                opacity: 0.9;
-            }
-    }
     .content {
         width: 100%;
         height: 100%;
         
+        &:hover {
+            .bg-img {
+                opacity: 0.9;
+            }
+        }   
+        
+        .bg {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 2px;
+            -webkit-box-shadow: 0 1px 2px #000;
+            box-shadow: 0 1px 2px #000;
+            overflow: hidden;
+            
+        }
         .overlay {
             width: 100%;
             height: 100%;
@@ -356,4 +377,12 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
     z-index: 900;
+}
+
+.l-content h1 {
+    display: none;
+}
+
+.block--teachit-config-grid-content {
+    margin-top: $base_margin;
 }

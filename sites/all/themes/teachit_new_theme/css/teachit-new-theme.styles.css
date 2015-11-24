@@ -1,14 +1,3 @@
-/* line 17, ../sass/variables/_grid.scss */
-.wrapper, .row {
-  *zoom: 1; }
-  /* line 19, ../sass/variables/_grid.scss */
-  .wrapper:before, .row:before, .wrapper:after, .row:after {
-    content: " ";
-    display: table; }
-  /* line 24, ../sass/variables/_grid.scss */
-  .wrapper:after, .row:after {
-    clear: both; }
-
 /* No files to import found in abstractions/**\/* */
 /* line 1, ../sass/base/_media.scss */
 img, media {
@@ -16,94 +5,112 @@ img, media {
 
 /* line 25, ../sass/teachit-new-theme.styles.scss */
 body {
-  padding: 0 25px; }
+  padding: 0 15px;
+  background-color: #262629; }
 
-/* line 13, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/toolkit-2.9.0/stylesheets/toolkit/_clearfix.scss */
-.l-branding:after {
-  content: "";
-  display: table;
-  clear: both; }
+/* line 30, ../sass/teachit-new-theme.styles.scss */
+.l-branding {
+  *zoom: 1;
+  background-color: #fff; }
+  /* line 22, ../sass/variables/_grid.scss */
+  .l-branding:before, .l-branding:after {
+    content: " ";
+    display: table; }
+  /* line 27, ../sass/variables/_grid.scss */
+  .l-branding:after {
+    clear: both; }
 
-/* line 36, ../sass/teachit-new-theme.styles.scss */
+/* line 35, ../sass/teachit-new-theme.styles.scss */
+.wrapper, .row {
+  *zoom: 1; }
+  /* line 22, ../sass/variables/_grid.scss */
+  .wrapper:before, .wrapper:after, .row:before, .row:after {
+    content: " ";
+    display: table; }
+  /* line 27, ../sass/variables/_grid.scss */
+  .wrapper:after, .row:after {
+    clear: both; }
+
+/* line 39, ../sass/teachit-new-theme.styles.scss */
 .block--md-slider {
-  margin-bottom: 25px; }
+  margin-bottom: 15px; }
 
-/* line 40, ../sass/teachit-new-theme.styles.scss */
+/* line 43, ../sass/teachit-new-theme.styles.scss */
 .site-logo {
-  width: 83.05085%;
+  width: 82.97872%;
   float: left;
   margin-right: -100%;
-  margin-left: 8.47458%;
+  margin-left: 8.51064%;
   clear: none;
   padding: 10px;
   text-align: center; }
 
-/* line 46, ../sass/teachit-new-theme.styles.scss */
+/* line 49, ../sass/teachit-new-theme.styles.scss */
 .l-region--branding {
-  width: 6.77966%;
+  width: 6.38298%;
   float: left;
   margin-right: -100%;
   margin-left: 0;
   clear: none;
   margin-top: 40px; }
 
-/* line 51, ../sass/teachit-new-theme.styles.scss */
+/* line 54, ../sass/teachit-new-theme.styles.scss */
 .tb-megamenu .nav-collapse {
   width: 200px; }
 
 @media (min-width: 44em) {
-  /* line 56, ../sass/teachit-new-theme.styles.scss */
+  /* line 59, ../sass/teachit-new-theme.styles.scss */
   .l-page {
     width: 44em;
     margin: 0 auto; }
 
-  /* line 61, ../sass/teachit-new-theme.styles.scss */
+  /* line 64, ../sass/teachit-new-theme.styles.scss */
   .tb-megamenu .nav-collapse {
     width: 300px; } }
 @media (min-width: 70em) {
-  /* line 67, ../sass/teachit-new-theme.styles.scss */
+  /* line 70, ../sass/teachit-new-theme.styles.scss */
   .l-page {
     width: 70em;
     margin: 0 auto; }
 
-  /* line 72, ../sass/teachit-new-theme.styles.scss */
+  /* line 75, ../sass/teachit-new-theme.styles.scss */
   .site-logo {
-    width: 23.72881%;
+    width: 23.40426%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none;
     padding: 10px; }
 
-  /* line 77, ../sass/teachit-new-theme.styles.scss */
+  /* line 80, ../sass/teachit-new-theme.styles.scss */
   .l-region--branding {
-    width: 74.57627%;
+    width: 74.46809%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
     margin-top: 0; }
 
-  /* line 82, ../sass/teachit-new-theme.styles.scss */
+  /* line 85, ../sass/teachit-new-theme.styles.scss */
   .tb-megamenu {
     background-color: #fff; }
-    /* line 84, ../sass/teachit-new-theme.styles.scss */
+    /* line 87, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav-collapse {
       width: 100%; }
-    /* line 91, ../sass/teachit-new-theme.styles.scss */
+    /* line 94, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav li.dropdown > .dropdown-toggle .caret {
       margin-top: 35px;
       border-top-color: #666 !important;
       border-bottom-color: #666 !important; }
-    /* line 101, ../sass/teachit-new-theme.styles.scss */
+    /* line 104, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav li.dropdown.open > .dropdown-toggle .caret {
       margin-top: 35px;
       border-top-color: #666 !important;
       border-bottom-color: #666 !important; }
-    /* line 108, ../sass/teachit-new-theme.styles.scss */
+    /* line 111, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav > .active {
       float: right; }
-      /* line 110, ../sass/teachit-new-theme.styles.scss */
+      /* line 113, ../sass/teachit-new-theme.styles.scss */
       .tb-megamenu .nav > .active > a {
         background-color: #fff !important;
         color: #575757 !important;
@@ -113,111 +120,132 @@ body {
         font-weight: 300;
         border-right: none;
         text-transform: uppercase; }
-      /* line 121, ../sass/teachit-new-theme.styles.scss */
+      /* line 124, ../sass/teachit-new-theme.styles.scss */
       .tb-megamenu .nav > .active a:hover {
         background-color: #fff;
         color: #575757;
         text-decoration: none; }
-      /* line 126, ../sass/teachit-new-theme.styles.scss */
+      /* line 129, ../sass/teachit-new-theme.styles.scss */
       .tb-megamenu .nav > .active a:focus {
         background-color: #fff;
         color: #575757;
         text-decoration: none; }
 
-  /* line 136, ../sass/teachit-new-theme.styles.scss */
+  /* line 139, ../sass/teachit-new-theme.styles.scss */
   .play {
     -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-box-shadow 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); }
 
-  /* line 141, ../sass/teachit-new-theme.styles.scss */
+  /* line 144, ../sass/teachit-new-theme.styles.scss */
   .play {
     width: 60px;
     height: 60px;
     margin-right: -30px;
     margin-left: -30px; }
 
-  /* line 148, ../sass/teachit-new-theme.styles.scss */
+  /* line 152, ../sass/teachit-new-theme.styles.scss */
   .grid-1 {
-    width: 49.15254%;
+    width: 66.66667%;
     float: left;
     margin-right: -100%;
-    margin-left: 0;
-    clear: none; }
-    /* line 150, ../sass/teachit-new-theme.styles.scss */
+    clear: none;
+    padding-right: 4px; }
+    /* line 155, ../sass/teachit-new-theme.styles.scss */
     .grid-1 .wrap-content-1 {
       width: 100%;
       float: right;
       margin-left: 0;
       margin-right: 0;
       clear: none;
-      height: 400px; }
-      /* line 13, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/toolkit-2.9.0/stylesheets/toolkit/_clearfix.scss */
+      padding-right: 0;
+      margin-bottom: 4px;
+      *zoom: 1; }
+      /* line 22, ../sass/variables/_grid.scss */
+      .grid-1 .wrap-content-1:before, .grid-1 .wrap-content-1:after {
+        content: " ";
+        display: table; }
+      /* line 27, ../sass/variables/_grid.scss */
       .grid-1 .wrap-content-1:after {
-        content: "";
-        display: table;
         clear: both; }
-    /* line 155, ../sass/teachit-new-theme.styles.scss */
+    /* line 160, ../sass/teachit-new-theme.styles.scss */
     .grid-1 .wrap-content-2 {
-      width: 49.15254%;
+      width: 66.66667%;
       float: left;
       margin-right: -100%;
-      margin-left: 0;
-      clear: none; }
-    /* line 158, ../sass/teachit-new-theme.styles.scss */
+      clear: none;
+      padding-right: 4px; }
+    /* line 163, ../sass/teachit-new-theme.styles.scss */
     .grid-1 .wrap-content-3 {
-      width: 49.15254%;
+      width: 33.33333%;
       float: right;
       margin-left: 0;
       margin-right: 0;
-      clear: none; }
+      clear: none;
+      padding-right: 0; }
 
-  /* line 163, ../sass/teachit-new-theme.styles.scss */
+  /* line 168, ../sass/teachit-new-theme.styles.scss */
   .grid-2 {
-    width: 49.15254%;
+    width: 33.33333%;
     float: right;
     margin-left: 0;
     margin-right: 0;
-    clear: none; }
-    /* line 165, ../sass/teachit-new-theme.styles.scss */
+    clear: none;
+    padding-right: 0; }
+    /* line 170, ../sass/teachit-new-theme.styles.scss */
     .grid-2 .wrap-content-4 {
-      width: 49.15254%;
+      width: 50%;
       float: left;
       margin-right: -100%;
-      margin-left: 0;
       clear: none;
-      height: 400px; }
-    /* line 169, ../sass/teachit-new-theme.styles.scss */
+      padding-right: 4px; }
+    /* line 173, ../sass/teachit-new-theme.styles.scss */
     .grid-2 .wrap-content-5 {
-      width: 49.15254%;
+      width: 50%;
       float: right;
       margin-left: 0;
       margin-right: 0;
       clear: none;
-      height: 400px; }
+      padding-right: 0; }
+    /* line 176, ../sass/teachit-new-theme.styles.scss */
+    .grid-2 .wrap-content-6 {
+      margin-top: 4px;
+      width: 100%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none;
+      padding-right: 0; }
 
-  /* line 177, ../sass/teachit-new-theme.styles.scss */
+  /* line 184, ../sass/teachit-new-theme.styles.scss */
   .content .play a {
     -webkit-background-size: 14px 22px;
     background-size: 14px 22px;
     background-repeat: no-repeat; } }
-@media (min-width: 100em) {
-  /* line 185, ../sass/teachit-new-theme.styles.scss */
+@media (min-width: 86em) {
+  /* line 192, ../sass/teachit-new-theme.styles.scss */
   .l-page {
-    width: 100em; } }
-/* line 13, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/toolkit-2.9.0/stylesheets/toolkit/_clearfix.scss */
-.wrap-grid-content:after {
-  content: "";
-  display: table;
-  clear: both; }
-/* line 192, ../sass/teachit-new-theme.styles.scss */
-.wrap-grid-content .content {
-  position: relative; }
+    width: 86em;
+    margin: 0 auto; } }
+/* line 198, ../sass/teachit-new-theme.styles.scss */
+.wrap-grid-content {
+  *zoom: 1; }
+  /* line 22, ../sass/variables/_grid.scss */
+  .wrap-grid-content:before, .wrap-grid-content:after {
+    content: " ";
+    display: table; }
+  /* line 27, ../sass/variables/_grid.scss */
+  .wrap-grid-content:after {
+    clear: both; }
+  /* line 200, ../sass/teachit-new-theme.styles.scss */
+  .wrap-grid-content .content {
+    position: relative;
+    background-color: #000; }
 
-/* line 197, ../sass/teachit-new-theme.styles.scss */
+/* line 206, ../sass/teachit-new-theme.styles.scss */
 .mbYTP_wrapper .YTPOverlay {
   background-color: rgba(0, 0, 0, 0.4); }
 
-/* line 201, ../sass/teachit-new-theme.styles.scss */
+/* line 210, ../sass/teachit-new-theme.styles.scss */
 .bg-img {
   position: absolute;
   top: 0;
@@ -230,30 +258,40 @@ body {
   background-size: cover;
   z-index: 2; }
 
-/* line 218, ../sass/teachit-new-theme.styles.scss */
-.wrap-grid-content .content:hover .bg-img {
-  opacity: 0.9; }
-/* line 222, ../sass/teachit-new-theme.styles.scss */
+/* line 226, ../sass/teachit-new-theme.styles.scss */
 .wrap-grid-content .content {
   width: 100%;
   height: 100%; }
-  /* line 226, ../sass/teachit-new-theme.styles.scss */
+  /* line 231, ../sass/teachit-new-theme.styles.scss */
+  .wrap-grid-content .content:hover .bg-img {
+    opacity: 0.9; }
+  /* line 236, ../sass/teachit-new-theme.styles.scss */
+  .wrap-grid-content .content .bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 2px #000;
+    box-shadow: 0 1px 2px #000;
+    overflow: hidden; }
+  /* line 247, ../sass/teachit-new-theme.styles.scss */
   .wrap-grid-content .content .overlay {
     width: 100%;
     height: 100%; }
-    /* line 229, ../sass/teachit-new-theme.styles.scss */
+    /* line 250, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .copy {
       position: absolute;
       bottom: 20px;
       margin-right: 25px;
       z-index: 4; }
-      /* line 234, ../sass/teachit-new-theme.styles.scss */
+      /* line 255, ../sass/teachit-new-theme.styles.scss */
       .wrap-grid-content .content .overlay .copy .title {
         float: left;
         clear: both;
         margin: 0;
         font-size: 15px; }
-        /* line 239, ../sass/teachit-new-theme.styles.scss */
+        /* line 260, ../sass/teachit-new-theme.styles.scss */
         .wrap-grid-content .content .overlay .copy .title a {
           display: block;
           float: left;
@@ -262,10 +300,10 @@ body {
           color: #fff;
           background-color: #dc2828;
           background-color: rgba(220, 40, 40, 0.85); }
-      /* line 250, ../sass/teachit-new-theme.styles.scss */
+      /* line 271, ../sass/teachit-new-theme.styles.scss */
       .wrap-grid-content .content .overlay .copy .title:hover a {
         background-color: #dc2828; }
-      /* line 253, ../sass/teachit-new-theme.styles.scss */
+      /* line 274, ../sass/teachit-new-theme.styles.scss */
       .wrap-grid-content .content .overlay .copy .cta {
         float: left;
         clear: both;
@@ -274,7 +312,7 @@ body {
         font-size: 11px;
         font-family: "SST W01 Bold", "SST W01", Helvetica, Arial, sans-serif;
         text-transform: uppercase; }
-        /* line 261, ../sass/teachit-new-theme.styles.scss */
+        /* line 282, ../sass/teachit-new-theme.styles.scss */
         .wrap-grid-content .content .overlay .copy .cta a {
           display: block;
           float: left;
@@ -283,17 +321,17 @@ body {
           color: #222222;
           background-color: #ffffff;
           background-color: rgba(255, 255, 255, 0.9); }
-      /* line 271, ../sass/teachit-new-theme.styles.scss */
+      /* line 292, ../sass/teachit-new-theme.styles.scss */
       .wrap-grid-content .content .overlay .copy .cta:hover a {
         background-color: white; }
-    /* line 276, ../sass/teachit-new-theme.styles.scss */
+    /* line 297, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .source {
       position: absolute;
       top: 8px;
       right: 8px;
       margin: 0;
       z-index: 4; }
-    /* line 284, ../sass/teachit-new-theme.styles.scss */
+    /* line 305, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .play {
       display: block;
       position: absolute;
@@ -306,11 +344,11 @@ body {
       background-color: #c0c0c0;
       background-color: rgba(192, 192, 192, 0.8);
       z-index: 4; }
-    /* line 298, ../sass/teachit-new-theme.styles.scss */
+    /* line 319, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .play {
       background-color: #dc2828;
       background-color: rgba(220, 40, 40, 0.8); }
-    /* line 303, ../sass/teachit-new-theme.styles.scss */
+    /* line 324, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .play a {
       width: 100%;
       height: 100%;
@@ -323,7 +361,7 @@ body {
       webkit-transition: background-color 0.25s linear,border-color 0.25s linear,opacity 0.25s linear,color 0.25s linear,fill 0.25s linear;
       transition: background-color 0.25s linear,border-color 0.25s linear,opacity 0.25s linear,color 0.25s linear,fill 0.25s linear;
       cursor: pointer; }
-    /* line 317, ../sass/teachit-new-theme.styles.scss */
+    /* line 338, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .play:hover {
       background-color: #dc3a3a;
       background-color: rgba(220, 40, 40, 0.99);
@@ -332,7 +370,7 @@ body {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
       transform: scale(1.05); }
-  /* line 328, ../sass/teachit-new-theme.styles.scss */
+  /* line 349, ../sass/teachit-new-theme.styles.scss */
   .wrap-grid-content .content iframe {
     position: absolute;
     top: 0;
@@ -344,11 +382,11 @@ body {
     border: none;
     overflow: hidden;
     z-index: 1; }
-  /* line 341, ../sass/teachit-new-theme.styles.scss */
+  /* line 362, ../sass/teachit-new-theme.styles.scss */
   .wrap-grid-content .content iframe.active {
     z-index: 901; }
 
-/* line 348, ../sass/teachit-new-theme.styles.scss */
+/* line 369, ../sass/teachit-new-theme.styles.scss */
 #screen {
   display: none;
   position: fixed;
@@ -360,5 +398,13 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
   z-index: 900; }
+
+/* line 382, ../sass/teachit-new-theme.styles.scss */
+.l-content h1 {
+  display: none; }
+
+/* line 386, ../sass/teachit-new-theme.styles.scss */
+.block--teachit-config-grid-content {
+  margin-top: 15px; }
 
 /*# sourceMappingURL=teachit-new-theme.styles.css.map */
