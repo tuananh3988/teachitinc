@@ -24,7 +24,9 @@
 
 body {
     padding: 0 $base_margin;
-    background-color: #262629;
+    background-color: #333;
+    font-size: $base_font_text;
+    font-weight: 300;
 }
 
 .l-branding {
@@ -186,6 +188,34 @@ body {
         background-size: 14px 22px;
         background-repeat: no-repeat;
     }
+    
+    .l-footer {
+        .block--block-4 {
+            @include grid-span(3, 1);
+            padding: $base_padding;
+        }
+        
+        .block--block-5 {
+            @include grid-span(3, 4);
+            padding: $base_padding;
+        }
+        
+        .block--formblock-contact-site {
+            @include grid-span(6, 7);
+            padding: $base_padding;
+        }
+        
+        .block-title {
+            color: #FFF;
+            font-size: 1.4em;
+            margin: 15px 0;
+            padding: 10px 0;
+            font-weight: 500;
+        }
+        
+    }
+    
+    
 }
 
 @include breakpoint($s-des) {
@@ -385,4 +415,377 @@ body {
 
 .block--teachit-config-grid-content {
     margin-top: $base_margin;
+}
+
+.l-footer {
+    margin-top: $base_margin;
+    background-color: #222;
+    color: #d7d7d7;
+    @include clearfix;
+}
+
+
+.dexp-social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 0px;
+  background: #999999;
+  color: #888888;
+  border: 0px;
+  line-height: 40px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+}
+.dexp-social-icon:hover i {
+  color: #fff;
+}
+.dexp-social-icon.dexp-social-transparent {
+  background: transparent;
+  color: #444444;
+  border: 1px solid #444444;
+  width: 39px;
+  height: 39px;
+  line-height: 39px;
+}
+.dexp-social-icon.dexp-social-transparent:hover {
+  background: #444444;
+}
+.dexp-social-icon.dexp-social-transparent:hover i {
+  color: #ffffff;
+}
+.dexp-social-light,
+.dexp-social-hover-light:hover {
+  background: #dddddd;
+}
+.dexp-social-light i,
+.dexp-social-hover-light:hover i {
+  color: #999999;
+}
+.dexp-social-dark,
+.dexp-social-hover-dark:hover {
+  background: #999999;
+}
+.dexp-social-dark i,
+.dexp-social-hover-dark:hover i {
+  color: #ffffff;
+}
+.dexp-social-twitter,
+.dexp-social-hover-twitter:hover {
+  background: #54afe2;
+}
+.dexp-social-twitter i,
+.dexp-social-hover-twitter:hover i {
+  color: #ffffff;
+}
+.dexp-social-facebook,
+.dexp-social-hover-facebook:hover {
+  background: #4671ad;
+}
+.dexp-social-facebook i,
+.dexp-social-hover-facebook:hover i {
+  color: #ffffff;
+}
+.dexp-social-linkedin,
+.dexp-social-hover-linkedin:hover {
+  background: #64abcc;
+}
+.dexp-social-linkedin i,
+.dexp-social-hover-linkedin:hover i {
+  color: #ffffff;
+}
+.dexp-social-google,
+.dexpoe-social-hover-google:hover {
+  background: #dc4a38;
+}
+.dexp-social-google i,
+.dexpoe-social-hover-google:hover i {
+  color: #ffffff;
+}
+.dexp-social-dribbble,
+.dexp-social-hover-dribbble:hover {
+  background: #d64d74;
+}
+.dexp-social-dribbble i,
+.dexp-social-hover-dribbble:hover i {
+  color: #ffffff;
+}
+.dexp-social-skype,
+.dexp-social-hover-skype:hover {
+  background: #00c6ff;
+}
+.dexp-social-skype i,
+.dexp-social-hover-skype:hover i {
+  color: #ffffff;
+}
+.dexp-social-behance,
+.dexp-social-hover-behance:hover {
+  background: #0099fd;
+}
+.dexp-social-behance i,
+.dexp-social-hover-behance:hover i {
+  color: #ffffff;
+}
+.dexp-social-deviantart,
+.dexp-social-hover-deviantart:hover {
+  background: #c7d419;
+}
+.dexp-social-deviantart i,
+.dexp-social-hover-deviantart:hover i {
+  color: #ffffff;
+}
+.dexp-social-tumblr,
+.dexp-social-hover-tumblr:hover {
+  background: #385874;
+}
+.dexp-social-tumblr i,
+.dexp-social-hover-tumblr:hover i {
+  color: #ffffff;
+}
+.dexp-social-rss,
+.dexp-social-hover-rss:hover {
+  background: #fe9900;
+}
+.dexp-social-rss i,
+.dexp-social-hover-rss:hover i {
+  color: #ffffff;
+}
+.dexp-social-vimeo,
+.dexp-social-hover-vimeo:hover {
+  background: #a6caea;
+}
+.dexp-social-vimeo i,
+.dexp-social-hover-vimeo:hover i {
+  color: #ffffff;
+}
+.dexp-social-pinterest,
+.dexp-social-hover-pinterest:hover {
+  background: #ce2027;
+}
+.dexp-social-pinterest i,
+.dexp-social-hover-pinterest:hover i {
+  color: #ffffff;
+}
+.dexp-social-flickr,
+.dexp-social-hover-flickr:hover {
+  background: #f4789b;
+}
+.dexp-social-flickr i,
+.dexp-social-hover-flickr:hover i {
+  color: #ffffff;
+}
+.dexp-social-youtube,
+.dexp-social-hover-youtube:hover {
+  background: #e70031;
+}
+.dexp-social-youtube i,
+.dexp-social-hover-youtube:hover i {
+  color: #ffffff;
+}
+.dexp-social-instagram,
+.dexp-social-hover-instagram:hover {
+  background: #2c6a91;
+}
+.dexp-social-instagram i,
+.dexp-social-hover-instagram:hover i {
+  color: #ffffff;
+}
+.dexp-social-apple,
+.dexp-social-hover-apple:hover {
+  background: #5f5f5f;
+}
+.dexp-social-apple i,
+.dexp-social-hover-apple:hover i {
+  color: #ffffff;
+}
+.dexp-reflect .dexp-social-transparent,
+.dexp-reflect-bg .dexp-social-transparent {
+  background: transparent;
+  border: 1px solid #ffffff;
+}
+.dexp-reflect .dexp-social-transparent i,
+.dexp-reflect-bg .dexp-social-transparent i {
+  color: #ffffff;
+}
+.dexp-reflect .dexp-social-transparent:hover,
+.dexp-reflect-bg .dexp-social-transparent:hover {
+  background: #ffffff;
+}
+.dexp-reflect .dexp-social-transparent:hover i,
+.dexp-reflect-bg .dexp-social-transparent:hover i {
+  color: #444444;
+}
+.dexp-social-group-nospace .dexp-social {
+  margin-right: -4px;
+}
+.oe-social-group-smallspace .dexp-social {
+  margin-right: -3px;
+}
+.dexp-social-group-largespace .dexp-social {
+  margin-right: 8px;
+}
+div[class*="preset-dark"] {
+  background-color: #444444;
+  color: #cccccc;
+  text-shadow: 0 0 0 rgba(204,204,204,0.1);
+  padding: 50px 0;
+}
+.dexp-social-dark-bg {
+  background: transparent;
+  border: 1px solid #555;
+}
+.dexp-social-dark-bg i {
+  color: #ffffff;
+}
+.dexp-social-dark-bg:hover {
+  background: #ffffff;
+}
+.dexp-social-dark-bg:hover i {
+  color: #444444;
+}
+
+#contact-site-form label{
+    margin-bottom: 5px;
+}
+.contact-info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact-info ul li {
+  list-style-type: none;
+  line-height: 40px;
+}
+
+.contact-info ul li a {
+    color: #666666;
+    text-decoration: none;
+    &:hover {
+        color: #444444;
+    }
+}
+
+
+.contact-info ul li span {
+  color: #888;
+}
+.contact-info ul li i {
+  width: 30px;
+  text-align: center;
+  margin-right: 20px;
+}
+#contact-site-form .form-submit {
+  -moz-user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  padding: 6px 12px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #333;
+}
+#contact-site-form .form-type-textarea,
+#contact-site-form--2 .form-type-textarea {
+  clear: both;
+}
+#contact-site-form .form-item-name,
+#contact-site-form--2 .form-item-name {
+  text-align: left;
+}
+#contact-site-form .form-type-textfield,
+#contact-site-form--2 .form-type-textfield {
+  width: 33.3%;
+  float: left;
+}
+
+#contact-site-form .form-item-subject input,
+#contact-site-form--2 .form-item-subject input {
+  width: 95%;
+}
+#contact-site-form .form-item-subject label,
+#contact-site-form--2 .form-item-subject label {
+  text-align: left;
+}
+#contact-site-form .form-type-textfield input,
+#contact-site-form--2 .form-type-textfield input {
+  width: 90%;
+}
+@media (max-width: 480px) {
+  #contact-site-form .form-type-textfield,
+  #contact-site-form--2 .form-type-textfield {
+    width: 100%;
+    float: left;
+  }
+  #contact-site-form .form-type-textfield input,
+  #contact-site-form--2 .form-type-textfield input {
+    width: 100%;
+    height: 35px;
+  }
+}
+#contact-site-form .form-item-copy,
+#contact-site-form--2 .form-item-copy {
+  margin-bottom: 0;
+}
+#contact-site-form .form-actions,
+#contact-site-form--2 .form-actions {
+  margin-top: 15px !important;
+}
+#contact-site-form .grippie,
+#contact-site-form--2 .grippie {
+  display: none;
+}
+#contact-site-form .form-type-textarea textarea,
+#contact-site-form--2 .form-type-textarea textarea {
+  height: 115px;
+  min-height: 115px !important;
+}
+#contact-site-form .form-required,
+#contact-site-form--2 .form-required {
+  display: none;
+}
+#contact-site-form .form-item-copy input,
+#contact-site-form--2 .form-item-copy input {
+  margin-top: 0;
+}
+#contact-site-form .form-item.form-type-textfield input,
+#contact-site-form .form-item.form-type-textarea textarea,
+#contact-site-form--2 .form-item.form-type-textfield input,
+#contact-site-form--2 .form-item.form-type-textarea textarea {
+  padding: 10px;
+  font-size: 12px;
+}
+#contact-site-form .form-type-checkbox,
+#contact-site-form--2 .form-type-checkbox {
+  display: none;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"] {
+  background: none repeat scroll 0 0 rgba(0,0,0,0);
+  border: 1px solid #555 !important;
+  border-radius: 0;
+  box-shadow: none;
+  color: #999;
+  display: inline-block;
+  line-height: 25px;
+  margin-bottom: 15px;
+  padding: 10px;
+  resize: none;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
 }

@@ -7,7 +7,7 @@ $red: red;
 
 $tab: 44em;
 $des: 70em;
-$s-des: 86em;
+$s-des: 90em;
 
 
 $base_color: #fff;
@@ -16,6 +16,8 @@ $header_height: 12px;
 $base_color_opposite: #fff;
 $link_color: green;
 $base_margin: 15px;
+$base_padding: 15px;
+$base_font_text: 13px;
 
 @mixin clearfix() {
     *zoom: 1;

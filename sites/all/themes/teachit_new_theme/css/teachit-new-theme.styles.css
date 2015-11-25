@@ -6,36 +6,38 @@ img, media {
 /* line 25, ../sass/teachit-new-theme.styles.scss */
 body {
   padding: 0 15px;
-  background-color: #262629; }
+  background-color: #333;
+  font-size: 13px;
+  font-weight: 300; }
 
-/* line 30, ../sass/teachit-new-theme.styles.scss */
+/* line 32, ../sass/teachit-new-theme.styles.scss */
 .l-branding {
   *zoom: 1;
   background-color: #fff; }
-  /* line 22, ../sass/variables/_grid.scss */
+  /* line 24, ../sass/variables/_grid.scss */
   .l-branding:before, .l-branding:after {
     content: " ";
     display: table; }
-  /* line 27, ../sass/variables/_grid.scss */
+  /* line 29, ../sass/variables/_grid.scss */
   .l-branding:after {
     clear: both; }
 
-/* line 35, ../sass/teachit-new-theme.styles.scss */
+/* line 37, ../sass/teachit-new-theme.styles.scss */
 .wrapper, .row {
   *zoom: 1; }
-  /* line 22, ../sass/variables/_grid.scss */
+  /* line 24, ../sass/variables/_grid.scss */
   .wrapper:before, .wrapper:after, .row:before, .row:after {
     content: " ";
     display: table; }
-  /* line 27, ../sass/variables/_grid.scss */
+  /* line 29, ../sass/variables/_grid.scss */
   .wrapper:after, .row:after {
     clear: both; }
 
-/* line 39, ../sass/teachit-new-theme.styles.scss */
+/* line 41, ../sass/teachit-new-theme.styles.scss */
 .block--md-slider {
   margin-bottom: 15px; }
 
-/* line 43, ../sass/teachit-new-theme.styles.scss */
+/* line 45, ../sass/teachit-new-theme.styles.scss */
 .site-logo {
   width: 82.97872%;
   float: left;
@@ -45,7 +47,7 @@ body {
   padding: 10px;
   text-align: center; }
 
-/* line 49, ../sass/teachit-new-theme.styles.scss */
+/* line 51, ../sass/teachit-new-theme.styles.scss */
 .l-region--branding {
   width: 6.38298%;
   float: left;
@@ -54,26 +56,26 @@ body {
   clear: none;
   margin-top: 40px; }
 
-/* line 54, ../sass/teachit-new-theme.styles.scss */
+/* line 56, ../sass/teachit-new-theme.styles.scss */
 .tb-megamenu .nav-collapse {
   width: 200px; }
 
 @media (min-width: 44em) {
-  /* line 59, ../sass/teachit-new-theme.styles.scss */
+  /* line 61, ../sass/teachit-new-theme.styles.scss */
   .l-page {
     width: 44em;
     margin: 0 auto; }
 
-  /* line 64, ../sass/teachit-new-theme.styles.scss */
+  /* line 66, ../sass/teachit-new-theme.styles.scss */
   .tb-megamenu .nav-collapse {
     width: 300px; } }
 @media (min-width: 70em) {
-  /* line 70, ../sass/teachit-new-theme.styles.scss */
+  /* line 72, ../sass/teachit-new-theme.styles.scss */
   .l-page {
     width: 70em;
     margin: 0 auto; }
 
-  /* line 75, ../sass/teachit-new-theme.styles.scss */
+  /* line 77, ../sass/teachit-new-theme.styles.scss */
   .site-logo {
     width: 23.40426%;
     float: left;
@@ -82,7 +84,7 @@ body {
     clear: none;
     padding: 10px; }
 
-  /* line 80, ../sass/teachit-new-theme.styles.scss */
+  /* line 82, ../sass/teachit-new-theme.styles.scss */
   .l-region--branding {
     width: 74.46809%;
     float: right;
@@ -91,26 +93,26 @@ body {
     clear: none;
     margin-top: 0; }
 
-  /* line 85, ../sass/teachit-new-theme.styles.scss */
+  /* line 87, ../sass/teachit-new-theme.styles.scss */
   .tb-megamenu {
     background-color: #fff; }
-    /* line 87, ../sass/teachit-new-theme.styles.scss */
+    /* line 89, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav-collapse {
       width: 100%; }
-    /* line 94, ../sass/teachit-new-theme.styles.scss */
+    /* line 96, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav li.dropdown > .dropdown-toggle .caret {
       margin-top: 35px;
       border-top-color: #666 !important;
       border-bottom-color: #666 !important; }
-    /* line 104, ../sass/teachit-new-theme.styles.scss */
+    /* line 106, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav li.dropdown.open > .dropdown-toggle .caret {
       margin-top: 35px;
       border-top-color: #666 !important;
       border-bottom-color: #666 !important; }
-    /* line 111, ../sass/teachit-new-theme.styles.scss */
+    /* line 113, ../sass/teachit-new-theme.styles.scss */
     .tb-megamenu .nav > .active {
       float: right; }
-      /* line 113, ../sass/teachit-new-theme.styles.scss */
+      /* line 115, ../sass/teachit-new-theme.styles.scss */
       .tb-megamenu .nav > .active > a {
         background-color: #fff !important;
         color: #575757 !important;
@@ -120,37 +122,37 @@ body {
         font-weight: 300;
         border-right: none;
         text-transform: uppercase; }
-      /* line 124, ../sass/teachit-new-theme.styles.scss */
+      /* line 126, ../sass/teachit-new-theme.styles.scss */
       .tb-megamenu .nav > .active a:hover {
         background-color: #fff;
         color: #575757;
         text-decoration: none; }
-      /* line 129, ../sass/teachit-new-theme.styles.scss */
+      /* line 131, ../sass/teachit-new-theme.styles.scss */
       .tb-megamenu .nav > .active a:focus {
         background-color: #fff;
         color: #575757;
         text-decoration: none; }
 
-  /* line 139, ../sass/teachit-new-theme.styles.scss */
+  /* line 141, ../sass/teachit-new-theme.styles.scss */
   .play {
     -webkit-transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-box-shadow 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: background-color 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); }
 
-  /* line 144, ../sass/teachit-new-theme.styles.scss */
+  /* line 146, ../sass/teachit-new-theme.styles.scss */
   .play {
     width: 60px;
     height: 60px;
     margin-right: -30px;
     margin-left: -30px; }
 
-  /* line 152, ../sass/teachit-new-theme.styles.scss */
+  /* line 154, ../sass/teachit-new-theme.styles.scss */
   .grid-1 {
     width: 66.66667%;
     float: left;
     margin-right: -100%;
     clear: none;
     padding-right: 4px; }
-    /* line 155, ../sass/teachit-new-theme.styles.scss */
+    /* line 157, ../sass/teachit-new-theme.styles.scss */
     .grid-1 .wrap-content-1 {
       width: 100%;
       float: right;
@@ -160,21 +162,21 @@ body {
       padding-right: 0;
       margin-bottom: 4px;
       *zoom: 1; }
-      /* line 22, ../sass/variables/_grid.scss */
+      /* line 24, ../sass/variables/_grid.scss */
       .grid-1 .wrap-content-1:before, .grid-1 .wrap-content-1:after {
         content: " ";
         display: table; }
-      /* line 27, ../sass/variables/_grid.scss */
+      /* line 29, ../sass/variables/_grid.scss */
       .grid-1 .wrap-content-1:after {
         clear: both; }
-    /* line 160, ../sass/teachit-new-theme.styles.scss */
+    /* line 162, ../sass/teachit-new-theme.styles.scss */
     .grid-1 .wrap-content-2 {
       width: 66.66667%;
       float: left;
       margin-right: -100%;
       clear: none;
       padding-right: 4px; }
-    /* line 163, ../sass/teachit-new-theme.styles.scss */
+    /* line 165, ../sass/teachit-new-theme.styles.scss */
     .grid-1 .wrap-content-3 {
       width: 33.33333%;
       float: right;
@@ -183,7 +185,7 @@ body {
       clear: none;
       padding-right: 0; }
 
-  /* line 168, ../sass/teachit-new-theme.styles.scss */
+  /* line 170, ../sass/teachit-new-theme.styles.scss */
   .grid-2 {
     width: 33.33333%;
     float: right;
@@ -191,14 +193,14 @@ body {
     margin-right: 0;
     clear: none;
     padding-right: 0; }
-    /* line 170, ../sass/teachit-new-theme.styles.scss */
+    /* line 172, ../sass/teachit-new-theme.styles.scss */
     .grid-2 .wrap-content-4 {
       width: 50%;
       float: left;
       margin-right: -100%;
       clear: none;
       padding-right: 4px; }
-    /* line 173, ../sass/teachit-new-theme.styles.scss */
+    /* line 175, ../sass/teachit-new-theme.styles.scss */
     .grid-2 .wrap-content-5 {
       width: 50%;
       float: right;
@@ -206,7 +208,7 @@ body {
       margin-right: 0;
       clear: none;
       padding-right: 0; }
-    /* line 176, ../sass/teachit-new-theme.styles.scss */
+    /* line 178, ../sass/teachit-new-theme.styles.scss */
     .grid-2 .wrap-content-6 {
       margin-top: 4px;
       width: 100%;
@@ -216,36 +218,70 @@ body {
       clear: none;
       padding-right: 0; }
 
-  /* line 184, ../sass/teachit-new-theme.styles.scss */
+  /* line 186, ../sass/teachit-new-theme.styles.scss */
   .content .play a {
     -webkit-background-size: 14px 22px;
     background-size: 14px 22px;
-    background-repeat: no-repeat; } }
-@media (min-width: 86em) {
-  /* line 192, ../sass/teachit-new-theme.styles.scss */
+    background-repeat: no-repeat; }
+
+  /* line 193, ../sass/teachit-new-theme.styles.scss */
+  .l-footer .block--block-4 {
+    width: 25%;
+    float: left;
+    margin-right: -100%;
+    clear: none;
+    padding-right: 4px;
+    padding: 15px; }
+  /* line 198, ../sass/teachit-new-theme.styles.scss */
+  .l-footer .block--block-5 {
+    width: 25%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25%;
+    clear: none;
+    padding-right: 4px;
+    padding: 15px; }
+  /* line 203, ../sass/teachit-new-theme.styles.scss */
+  .l-footer .block--formblock-contact-site {
+    width: 50%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding-right: 0;
+    padding: 15px; }
+  /* line 208, ../sass/teachit-new-theme.styles.scss */
+  .l-footer .block-title {
+    color: #FFF;
+    font-size: 1.4em;
+    margin: 15px 0;
+    padding: 10px 0;
+    font-weight: 500; } }
+@media (min-width: 90em) {
+  /* line 222, ../sass/teachit-new-theme.styles.scss */
   .l-page {
-    width: 86em;
+    width: 90em;
     margin: 0 auto; } }
-/* line 198, ../sass/teachit-new-theme.styles.scss */
+/* line 228, ../sass/teachit-new-theme.styles.scss */
 .wrap-grid-content {
   *zoom: 1; }
-  /* line 22, ../sass/variables/_grid.scss */
+  /* line 24, ../sass/variables/_grid.scss */
   .wrap-grid-content:before, .wrap-grid-content:after {
     content: " ";
     display: table; }
-  /* line 27, ../sass/variables/_grid.scss */
+  /* line 29, ../sass/variables/_grid.scss */
   .wrap-grid-content:after {
     clear: both; }
-  /* line 200, ../sass/teachit-new-theme.styles.scss */
+  /* line 230, ../sass/teachit-new-theme.styles.scss */
   .wrap-grid-content .content {
     position: relative;
     background-color: #000; }
 
-/* line 206, ../sass/teachit-new-theme.styles.scss */
+/* line 236, ../sass/teachit-new-theme.styles.scss */
 .mbYTP_wrapper .YTPOverlay {
   background-color: rgba(0, 0, 0, 0.4); }
 
-/* line 210, ../sass/teachit-new-theme.styles.scss */
+/* line 240, ../sass/teachit-new-theme.styles.scss */
 .bg-img {
   position: absolute;
   top: 0;
@@ -258,14 +294,14 @@ body {
   background-size: cover;
   z-index: 2; }
 
-/* line 226, ../sass/teachit-new-theme.styles.scss */
+/* line 256, ../sass/teachit-new-theme.styles.scss */
 .wrap-grid-content .content {
   width: 100%;
   height: 100%; }
-  /* line 231, ../sass/teachit-new-theme.styles.scss */
+  /* line 261, ../sass/teachit-new-theme.styles.scss */
   .wrap-grid-content .content:hover .bg-img {
     opacity: 0.9; }
-  /* line 236, ../sass/teachit-new-theme.styles.scss */
+  /* line 266, ../sass/teachit-new-theme.styles.scss */
   .wrap-grid-content .content .bg {
     position: absolute;
     top: 0;
@@ -275,23 +311,23 @@ body {
     -webkit-box-shadow: 0 1px 2px #000;
     box-shadow: 0 1px 2px #000;
     overflow: hidden; }
-  /* line 247, ../sass/teachit-new-theme.styles.scss */
+  /* line 277, ../sass/teachit-new-theme.styles.scss */
   .wrap-grid-content .content .overlay {
     width: 100%;
     height: 100%; }
-    /* line 250, ../sass/teachit-new-theme.styles.scss */
+    /* line 280, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .copy {
       position: absolute;
       bottom: 20px;
       margin-right: 25px;
       z-index: 4; }
-      /* line 255, ../sass/teachit-new-theme.styles.scss */
+      /* line 285, ../sass/teachit-new-theme.styles.scss */
       .wrap-grid-content .content .overlay .copy .title {
         float: left;
         clear: both;
         margin: 0;
         font-size: 15px; }
-        /* line 260, ../sass/teachit-new-theme.styles.scss */
+        /* line 290, ../sass/teachit-new-theme.styles.scss */
         .wrap-grid-content .content .overlay .copy .title a {
           display: block;
           float: left;
@@ -300,10 +336,10 @@ body {
           color: #fff;
           background-color: #dc2828;
           background-color: rgba(220, 40, 40, 0.85); }
-      /* line 271, ../sass/teachit-new-theme.styles.scss */
+      /* line 301, ../sass/teachit-new-theme.styles.scss */
       .wrap-grid-content .content .overlay .copy .title:hover a {
         background-color: #dc2828; }
-      /* line 274, ../sass/teachit-new-theme.styles.scss */
+      /* line 304, ../sass/teachit-new-theme.styles.scss */
       .wrap-grid-content .content .overlay .copy .cta {
         float: left;
         clear: both;
@@ -312,7 +348,7 @@ body {
         font-size: 11px;
         font-family: "SST W01 Bold", "SST W01", Helvetica, Arial, sans-serif;
         text-transform: uppercase; }
-        /* line 282, ../sass/teachit-new-theme.styles.scss */
+        /* line 312, ../sass/teachit-new-theme.styles.scss */
         .wrap-grid-content .content .overlay .copy .cta a {
           display: block;
           float: left;
@@ -321,17 +357,17 @@ body {
           color: #222222;
           background-color: #ffffff;
           background-color: rgba(255, 255, 255, 0.9); }
-      /* line 292, ../sass/teachit-new-theme.styles.scss */
+      /* line 322, ../sass/teachit-new-theme.styles.scss */
       .wrap-grid-content .content .overlay .copy .cta:hover a {
         background-color: white; }
-    /* line 297, ../sass/teachit-new-theme.styles.scss */
+    /* line 327, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .source {
       position: absolute;
       top: 8px;
       right: 8px;
       margin: 0;
       z-index: 4; }
-    /* line 305, ../sass/teachit-new-theme.styles.scss */
+    /* line 335, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .play {
       display: block;
       position: absolute;
@@ -344,11 +380,11 @@ body {
       background-color: #c0c0c0;
       background-color: rgba(192, 192, 192, 0.8);
       z-index: 4; }
-    /* line 319, ../sass/teachit-new-theme.styles.scss */
+    /* line 349, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .play {
       background-color: #dc2828;
       background-color: rgba(220, 40, 40, 0.8); }
-    /* line 324, ../sass/teachit-new-theme.styles.scss */
+    /* line 354, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .play a {
       width: 100%;
       height: 100%;
@@ -361,7 +397,7 @@ body {
       webkit-transition: background-color 0.25s linear,border-color 0.25s linear,opacity 0.25s linear,color 0.25s linear,fill 0.25s linear;
       transition: background-color 0.25s linear,border-color 0.25s linear,opacity 0.25s linear,color 0.25s linear,fill 0.25s linear;
       cursor: pointer; }
-    /* line 338, ../sass/teachit-new-theme.styles.scss */
+    /* line 368, ../sass/teachit-new-theme.styles.scss */
     .wrap-grid-content .content .overlay .play:hover {
       background-color: #dc3a3a;
       background-color: rgba(220, 40, 40, 0.99);
@@ -370,7 +406,7 @@ body {
       -webkit-transform: scale(1.05);
       -ms-transform: scale(1.05);
       transform: scale(1.05); }
-  /* line 349, ../sass/teachit-new-theme.styles.scss */
+  /* line 379, ../sass/teachit-new-theme.styles.scss */
   .wrap-grid-content .content iframe {
     position: absolute;
     top: 0;
@@ -382,11 +418,11 @@ body {
     border: none;
     overflow: hidden;
     z-index: 1; }
-  /* line 362, ../sass/teachit-new-theme.styles.scss */
+  /* line 392, ../sass/teachit-new-theme.styles.scss */
   .wrap-grid-content .content iframe.active {
     z-index: 901; }
 
-/* line 369, ../sass/teachit-new-theme.styles.scss */
+/* line 399, ../sass/teachit-new-theme.styles.scss */
 #screen {
   display: none;
   position: fixed;
@@ -399,12 +435,459 @@ body {
   background: rgba(0, 0, 0, 0.7);
   z-index: 900; }
 
-/* line 382, ../sass/teachit-new-theme.styles.scss */
+/* line 412, ../sass/teachit-new-theme.styles.scss */
 .l-content h1 {
   display: none; }
 
-/* line 386, ../sass/teachit-new-theme.styles.scss */
+/* line 416, ../sass/teachit-new-theme.styles.scss */
 .block--teachit-config-grid-content {
   margin-top: 15px; }
+
+/* line 420, ../sass/teachit-new-theme.styles.scss */
+.l-footer {
+  margin-top: 15px;
+  background-color: #222;
+  color: #d7d7d7;
+  *zoom: 1; }
+  /* line 24, ../sass/variables/_grid.scss */
+  .l-footer:before, .l-footer:after {
+    content: " ";
+    display: table; }
+  /* line 29, ../sass/variables/_grid.scss */
+  .l-footer:after {
+    clear: both; }
+
+/* line 428, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 0px;
+  background: #999999;
+  color: #888888;
+  border: 0px;
+  line-height: 40px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+  display: inline-block;
+  text-align: center; }
+
+/* line 446, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-icon:hover i {
+  color: #fff; }
+
+/* line 449, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-icon.dexp-social-transparent {
+  background: transparent;
+  color: #444444;
+  border: 1px solid #444444;
+  width: 39px;
+  height: 39px;
+  line-height: 39px; }
+
+/* line 457, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-icon.dexp-social-transparent:hover {
+  background: #444444; }
+
+/* line 460, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-icon.dexp-social-transparent:hover i {
+  color: #ffffff; }
+
+/* line 463, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-light,
+.dexp-social-hover-light:hover {
+  background: #dddddd; }
+
+/* line 467, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-light i,
+.dexp-social-hover-light:hover i {
+  color: #999999; }
+
+/* line 471, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-dark,
+.dexp-social-hover-dark:hover {
+  background: #999999; }
+
+/* line 475, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-dark i,
+.dexp-social-hover-dark:hover i {
+  color: #ffffff; }
+
+/* line 479, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-twitter,
+.dexp-social-hover-twitter:hover {
+  background: #54afe2; }
+
+/* line 483, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-twitter i,
+.dexp-social-hover-twitter:hover i {
+  color: #ffffff; }
+
+/* line 487, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-facebook,
+.dexp-social-hover-facebook:hover {
+  background: #4671ad; }
+
+/* line 491, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-facebook i,
+.dexp-social-hover-facebook:hover i {
+  color: #ffffff; }
+
+/* line 495, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-linkedin,
+.dexp-social-hover-linkedin:hover {
+  background: #64abcc; }
+
+/* line 499, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-linkedin i,
+.dexp-social-hover-linkedin:hover i {
+  color: #ffffff; }
+
+/* line 503, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-google,
+.dexpoe-social-hover-google:hover {
+  background: #dc4a38; }
+
+/* line 507, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-google i,
+.dexpoe-social-hover-google:hover i {
+  color: #ffffff; }
+
+/* line 511, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-dribbble,
+.dexp-social-hover-dribbble:hover {
+  background: #d64d74; }
+
+/* line 515, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-dribbble i,
+.dexp-social-hover-dribbble:hover i {
+  color: #ffffff; }
+
+/* line 519, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-skype,
+.dexp-social-hover-skype:hover {
+  background: #00c6ff; }
+
+/* line 523, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-skype i,
+.dexp-social-hover-skype:hover i {
+  color: #ffffff; }
+
+/* line 527, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-behance,
+.dexp-social-hover-behance:hover {
+  background: #0099fd; }
+
+/* line 531, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-behance i,
+.dexp-social-hover-behance:hover i {
+  color: #ffffff; }
+
+/* line 535, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-deviantart,
+.dexp-social-hover-deviantart:hover {
+  background: #c7d419; }
+
+/* line 539, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-deviantart i,
+.dexp-social-hover-deviantart:hover i {
+  color: #ffffff; }
+
+/* line 543, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-tumblr,
+.dexp-social-hover-tumblr:hover {
+  background: #385874; }
+
+/* line 547, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-tumblr i,
+.dexp-social-hover-tumblr:hover i {
+  color: #ffffff; }
+
+/* line 551, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-rss,
+.dexp-social-hover-rss:hover {
+  background: #fe9900; }
+
+/* line 555, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-rss i,
+.dexp-social-hover-rss:hover i {
+  color: #ffffff; }
+
+/* line 559, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-vimeo,
+.dexp-social-hover-vimeo:hover {
+  background: #a6caea; }
+
+/* line 563, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-vimeo i,
+.dexp-social-hover-vimeo:hover i {
+  color: #ffffff; }
+
+/* line 567, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-pinterest,
+.dexp-social-hover-pinterest:hover {
+  background: #ce2027; }
+
+/* line 571, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-pinterest i,
+.dexp-social-hover-pinterest:hover i {
+  color: #ffffff; }
+
+/* line 575, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-flickr,
+.dexp-social-hover-flickr:hover {
+  background: #f4789b; }
+
+/* line 579, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-flickr i,
+.dexp-social-hover-flickr:hover i {
+  color: #ffffff; }
+
+/* line 583, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-youtube,
+.dexp-social-hover-youtube:hover {
+  background: #e70031; }
+
+/* line 587, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-youtube i,
+.dexp-social-hover-youtube:hover i {
+  color: #ffffff; }
+
+/* line 591, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-instagram,
+.dexp-social-hover-instagram:hover {
+  background: #2c6a91; }
+
+/* line 595, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-instagram i,
+.dexp-social-hover-instagram:hover i {
+  color: #ffffff; }
+
+/* line 599, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-apple,
+.dexp-social-hover-apple:hover {
+  background: #5f5f5f; }
+
+/* line 603, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-apple i,
+.dexp-social-hover-apple:hover i {
+  color: #ffffff; }
+
+/* line 607, ../sass/teachit-new-theme.styles.scss */
+.dexp-reflect .dexp-social-transparent,
+.dexp-reflect-bg .dexp-social-transparent {
+  background: transparent;
+  border: 1px solid #ffffff; }
+
+/* line 612, ../sass/teachit-new-theme.styles.scss */
+.dexp-reflect .dexp-social-transparent i,
+.dexp-reflect-bg .dexp-social-transparent i {
+  color: #ffffff; }
+
+/* line 616, ../sass/teachit-new-theme.styles.scss */
+.dexp-reflect .dexp-social-transparent:hover,
+.dexp-reflect-bg .dexp-social-transparent:hover {
+  background: #ffffff; }
+
+/* line 620, ../sass/teachit-new-theme.styles.scss */
+.dexp-reflect .dexp-social-transparent:hover i,
+.dexp-reflect-bg .dexp-social-transparent:hover i {
+  color: #444444; }
+
+/* line 624, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-group-nospace .dexp-social {
+  margin-right: -4px; }
+
+/* line 627, ../sass/teachit-new-theme.styles.scss */
+.oe-social-group-smallspace .dexp-social {
+  margin-right: -3px; }
+
+/* line 630, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-group-largespace .dexp-social {
+  margin-right: 8px; }
+
+/* line 633, ../sass/teachit-new-theme.styles.scss */
+div[class*="preset-dark"] {
+  background-color: #444444;
+  color: #cccccc;
+  text-shadow: 0 0 0 rgba(204, 204, 204, 0.1);
+  padding: 50px 0; }
+
+/* line 639, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-dark-bg {
+  background: transparent;
+  border: 1px solid #555; }
+
+/* line 643, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-dark-bg i {
+  color: #ffffff; }
+
+/* line 646, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-dark-bg:hover {
+  background: #ffffff; }
+
+/* line 649, ../sass/teachit-new-theme.styles.scss */
+.dexp-social-dark-bg:hover i {
+  color: #444444; }
+
+/* line 653, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form label {
+  margin-bottom: 5px; }
+
+/* line 656, ../sass/teachit-new-theme.styles.scss */
+.contact-info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 661, ../sass/teachit-new-theme.styles.scss */
+.contact-info ul li {
+  list-style-type: none;
+  line-height: 40px; }
+
+/* line 666, ../sass/teachit-new-theme.styles.scss */
+.contact-info ul li a {
+  color: #666666;
+  text-decoration: none; }
+  /* line 669, ../sass/teachit-new-theme.styles.scss */
+  .contact-info ul li a:hover {
+    color: #444444; }
+
+/* line 675, ../sass/teachit-new-theme.styles.scss */
+.contact-info ul li span {
+  color: #888; }
+
+/* line 678, ../sass/teachit-new-theme.styles.scss */
+.contact-info ul li i {
+  width: 30px;
+  text-align: center;
+  margin-right: 20px; }
+
+/* line 683, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-submit {
+  -moz-user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  padding: 6px 12px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #333; }
+
+/* line 700, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-type-textarea,
+#contact-site-form--2 .form-type-textarea {
+  clear: both; }
+
+/* line 704, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-item-name,
+#contact-site-form--2 .form-item-name {
+  text-align: left; }
+
+/* line 708, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-type-textfield,
+#contact-site-form--2 .form-type-textfield {
+  width: 33.3%;
+  float: left; }
+
+/* line 714, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-item-subject input,
+#contact-site-form--2 .form-item-subject input {
+  width: 95%; }
+
+/* line 718, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-item-subject label,
+#contact-site-form--2 .form-item-subject label {
+  text-align: left; }
+
+/* line 722, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-type-textfield input,
+#contact-site-form--2 .form-type-textfield input {
+  width: 90%; }
+
+@media (max-width: 480px) {
+  /* line 727, ../sass/teachit-new-theme.styles.scss */
+  #contact-site-form .form-type-textfield,
+  #contact-site-form--2 .form-type-textfield {
+    width: 100%;
+    float: left; }
+
+  /* line 732, ../sass/teachit-new-theme.styles.scss */
+  #contact-site-form .form-type-textfield input,
+  #contact-site-form--2 .form-type-textfield input {
+    width: 100%;
+    height: 35px; } }
+/* line 738, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-item-copy,
+#contact-site-form--2 .form-item-copy {
+  margin-bottom: 0; }
+
+/* line 742, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-actions,
+#contact-site-form--2 .form-actions {
+  margin-top: 15px !important; }
+
+/* line 746, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .grippie,
+#contact-site-form--2 .grippie {
+  display: none; }
+
+/* line 750, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-type-textarea textarea,
+#contact-site-form--2 .form-type-textarea textarea {
+  height: 115px;
+  min-height: 115px !important; }
+
+/* line 755, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-required,
+#contact-site-form--2 .form-required {
+  display: none; }
+
+/* line 759, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-item-copy input,
+#contact-site-form--2 .form-item-copy input {
+  margin-top: 0; }
+
+/* line 763, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-item.form-type-textfield input,
+#contact-site-form .form-item.form-type-textarea textarea,
+#contact-site-form--2 .form-item.form-type-textfield input,
+#contact-site-form--2 .form-item.form-type-textarea textarea {
+  padding: 10px;
+  font-size: 12px; }
+
+/* line 770, ../sass/teachit-new-theme.styles.scss */
+#contact-site-form .form-type-checkbox,
+#contact-site-form--2 .form-type-checkbox {
+  display: none; }
+
+/* line 775, ../sass/teachit-new-theme.styles.scss */
+select,
+textarea,
+input[type="text"],
+input[type="password"] {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid #555 !important;
+  border-radius: 0;
+  box-shadow: none;
+  color: #999;
+  display: inline-block;
+  line-height: 25px;
+  margin-bottom: 15px;
+  padding: 10px;
+  resize: none;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle; }
 
 /*# sourceMappingURL=teachit-new-theme.styles.css.map */
