@@ -22,7 +22,7 @@
                         </div>
                     </div>
                     <div class="bg">
-                        <div class="bg-img" style="<?= empty(theme_get_setting("media-thumbnail-1")) ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-1") . ')'; ?>"></div>
+                        <div class="bg-img" style="<?= (theme_get_setting("media-thumbnail-1")) == '' ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-1") . ')'; ?>"></div>
                         
                     </div>
                 </div>
@@ -35,15 +35,15 @@
 
                         <div class="copy">
                             <h3 class="title">
-                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("title-5"); ?></a>
+                                <a href="<?= theme_get_setting("link-2"); ?>" target="_blank"><?= theme_get_setting("title-2"); ?></a>
                             </h3>
                             <p class="cta">
-                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("desciption-5"); ?></a>
+                                <a href="<?= theme_get_setting("link-2"); ?>" target="_blank"><?= theme_get_setting("desciption-2"); ?></a>
                             </p>
                         </div>
                     </div>
                     <div class="bg">
-                        <div class="bg-img" style="<?= empty(theme_get_setting("media-thumbnail-5")) ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-5") . ')'; ?>"></div>
+                        <div class="bg-img" style="<?= (theme_get_setting("media-thumbnail-2")) == '' ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-2") . ')'; ?>"></div>
 
                     </div>
                 </div>
@@ -54,15 +54,15 @@
 
                         <div class="copy">
                             <h3 class="title">
-                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("title-5"); ?></a>
+                                <a href="<?= theme_get_setting("link-3"); ?>" target="_blank"><?= theme_get_setting("title-3"); ?></a>
                             </h3>
                             <p class="cta">
-                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("desciption-5"); ?></a>
+                                <a href="<?= theme_get_setting("link-3"); ?>" target="_blank"><?= theme_get_setting("desciption-3"); ?></a>
                             </p>
                         </div>
                     </div>
                     <div class="bg">
-                        <div class="bg-img" style="<?= empty(theme_get_setting("media-thumbnail-5")) ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-5") . ')'; ?>"></div>
+                        <div class="bg-img" style="<?= (theme_get_setting("media-thumbnail-3")) == '' ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-3") . ')'; ?>"></div>
 
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                     <div class="bg">
-                        <div class="bg-img" style="<?= empty(theme_get_setting("media-thumbnail-4")) ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-4") . ')'; ?>"></div>
+                        <div class="bg-img" style="<?= (theme_get_setting("media-thumbnail-4")) == '' ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-4") . ')'; ?>"></div>
 
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                         </div>
                     </div>
                     <div class="bg">
-                        <div class="bg-img" style="<?= empty(theme_get_setting("media-thumbnail-5")) ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-5") . ')'; ?>"></div>
+                        <div class="bg-img" style="<?= (theme_get_setting("media-thumbnail-5")) == '' ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-5") . ')'; ?>"></div>
 
                     </div>
                 </div>
@@ -117,15 +117,15 @@
 
                         <div class="copy">
                             <h3 class="title">
-                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("title-5"); ?></a>
+                                <a href="<?= theme_get_setting("link-6"); ?>" target="_blank"><?= theme_get_setting("title-6"); ?></a>
                             </h3>
                             <p class="cta">
-                                <a href="<?= theme_get_setting("link-5"); ?>" target="_blank"><?= theme_get_setting("desciption-5"); ?></a>
+                                <a href="<?= theme_get_setting("link-6"); ?>" target="_blank"><?= theme_get_setting("desciption-6"); ?></a>
                             </p>
                         </div>
                     </div>
                     <div class="bg">
-                        <div class="bg-img" style="<?= empty(theme_get_setting("media-thumbnail-5")) ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-5") . ')'; ?>"></div>
+                        <div class="bg-img" style="<?= (theme_get_setting("media-thumbnail-6")) == '' ? '' : 'background-image: url(' . theme_get_setting("media-thumbnail-6") . ')'; ?>"></div>
 
                     </div>
                 </div>
