@@ -1,7 +1,7 @@
 <div class="wrap-grid-content">
     <div class="grid-1">
         <div class="row">
-            <div class="wrap-content-1">
+            <div class="wrap-content wrap-content-1">
                 <div class="content">
                     <div class="overlay">
                         <p class="play">
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="wrap-content-2">
+            <div class="wrap-content wrap-content-2">
                 <div class="content">
                     <div class="overlay">
 
@@ -48,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="wrap-content-3">
+            <div class="wrap-content wrap-content-3">
                 <div class="content">
                     <div class="overlay">
 
@@ -71,7 +71,7 @@
     </div>
     <div class="grid-2">
         <div class="row">
-            <div class="wrap-content-4">
+            <div class="wrap-content wrap-content-4">
                 <div class="content">
                     <div class="overlay">
 
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="wrap-content-5">
+            <div class="wrap-content wrap-content-5">
                 <div class="content">
                     <div class="overlay">
 
@@ -111,7 +111,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="wrap-content-6">
+            <div class="wrap-content wrap-content-6">
                 <div class="content">
                     <div class="overlay">
 
