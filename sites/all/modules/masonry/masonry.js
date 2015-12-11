@@ -29,22 +29,10 @@ Drupal.behaviors.masonry = {
           $options.columnWidth = settings.column_width;
       }
         }
-      if (settings.stamp) {
-        $options.stamp = settings.stamp;
-      }
-      $options.gutter = settings.gutter_width;
-      $options.isResizeBound = settings.resizable;
-      $options.isFitWidth = settings.fit_width;
-      if (settings.rtl) {
-        $options.isOriginLeft = false;
-      }
-      if (settings.animated) {
-        $options.transitionDuration = settings.animation_duration + 'ms';
-      }
-      else {
-        $options.transitionDuration = 0;
-      }
-
+        $options.columnWidth = 0;
+      $options.gutter = 5;
+      
+console.log($options);
       // Apply Masonry to container
       if (settings.images_first) {
         $container.imagesLoaded(function () {
