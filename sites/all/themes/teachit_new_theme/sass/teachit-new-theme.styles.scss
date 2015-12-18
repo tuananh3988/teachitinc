@@ -34,6 +34,24 @@ body {
     background-color: #fff;
 }
 
+.not-front .l-content .node__content {
+    .field--name-field-image {
+        padding: 0;
+        img {
+            width: 100%;
+         
+        }
+    }
+    
+    .field--name-field-title-display {
+        .field__item {
+            color: #fff;
+            font-size: 18px;
+            padding-top: 15px;
+        }
+    }
+}
+
 .breadcrumb {display: none;}
 
 .wrapper, .row {
